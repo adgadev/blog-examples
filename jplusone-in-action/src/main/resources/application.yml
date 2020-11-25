@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    open-in-view: false
+#    show-sql: true # legacy property
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    com.adgadev.jplusone: DEBUG

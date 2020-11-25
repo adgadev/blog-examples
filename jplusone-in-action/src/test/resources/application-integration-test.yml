@@ -1,0 +1,6 @@
+# com.adgadev.jplusone.core.properties.JPlusOneProperties
+jplusone:
+  report:
+    operation-filtering-mode: ALL_OPERATIONS # IMPLICIT_OPERATIONS_ONLY, EXPLICIT_OPERATIONS_ONLY
+    statement-filtering-mode: ALL_STATEMENTS
+
