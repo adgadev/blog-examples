@@ -82,13 +82,13 @@
         <dependency>
             <groupId>com.adgadev.jplusone</groupId>
             <artifactId>jplusone-core</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.adgadev.jplusone</groupId>
             <artifactId>jplusone-assert</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
