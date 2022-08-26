@@ -48,6 +48,7 @@
 
     <modules>
         <module>jplusone-in-action</module>
+        <module>spring-boot-feature-flags</module>
     </modules>
 
 </project>

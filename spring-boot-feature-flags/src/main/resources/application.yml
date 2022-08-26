@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    group:
+      dev: halo
+      prod:
+
+mongock:
+  migration-scan-package:
+    - com.adgadev.examples.featureflags.infrastructure.migration
+
+debug: true
