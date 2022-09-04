@@ -32,8 +32,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @Testcontainers
 @SpringBootTest
-@ActiveProfiles("dev")
-class DevProfileDemoApplicationTest {
+class DemoApplicationTest {
 
     @Container
     static MongoDBContainer mongoDBContainer = new MongoDBContainer("mongo:4.4.2");

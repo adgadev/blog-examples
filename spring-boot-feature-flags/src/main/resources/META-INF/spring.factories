@@ -1,4 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.adgadev.examples.featureflags.infrastructure.halo.HaloMongoAutoConfiguration,\
-  com.adgadev.examples.featureflags.infrastructure.halo.HaloMongoDataAutoConfiguration,\
-  com.adgadev.examples.featureflags.infrastructure.halo.HaloMongoRepositoriesAutoConfiguration

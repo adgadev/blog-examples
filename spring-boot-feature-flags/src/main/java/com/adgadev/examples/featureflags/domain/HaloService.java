@@ -16,14 +16,12 @@
 
 package com.adgadev.examples.featureflags.domain;
 
-import com.adgadev.examples.featureflags.HaloFeature;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
 @Service
-@HaloFeature
 @RequiredArgsConstructor
 public class HaloService {
 

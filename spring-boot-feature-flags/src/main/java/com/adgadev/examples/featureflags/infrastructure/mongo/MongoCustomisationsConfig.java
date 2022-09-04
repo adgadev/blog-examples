@@ -16,14 +16,20 @@
 
 package com.adgadev.examples.featureflags.infrastructure.mongo;
 
-import com.adgadev.examples.featureflags.HaloFeature;
 import io.mongock.runner.springboot.EnableMongock;
+import org.springframework.boot.autoconfigure.data.mongo.MongoDataAutoConfiguration;
+import org.springframework.boot.autoconfigure.data.mongo.MongoRepositoriesAutoConfiguration;
+import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
-@HaloFeature
 @Configuration
 @EnableMongock
 @EnableMongoRepositories(basePackageClasses = MongoHaloRepository.class)
+@Import({MongoAutoConfiguration.class,
+        MongoDataAutoConfiguration.class,
+        MongoRepositoriesAutoConfiguration.class
+})
 class MongoCustomisationsConfig {
 }

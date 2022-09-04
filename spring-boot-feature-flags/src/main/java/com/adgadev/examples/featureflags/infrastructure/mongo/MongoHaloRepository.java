@@ -16,11 +16,9 @@
 
 package com.adgadev.examples.featureflags.infrastructure.mongo;
 
-import com.adgadev.examples.featureflags.HaloFeature;
 import com.adgadev.examples.featureflags.domain.HaloEntity;
 import com.adgadev.examples.featureflags.domain.HaloRepository;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-@HaloFeature
 interface MongoHaloRepository extends HaloRepository, MongoRepository<HaloEntity, String> {
 }
